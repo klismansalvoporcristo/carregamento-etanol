@@ -7,8 +7,8 @@
 
   <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,13 +16,15 @@
   <div class="container">
     <div class="inputContainer">
       <input type="number" onchange="converter(this.value)" placeholder="______">
-      <p>Metros cubicos de Etanol</p>
+      <p>Litros</p>
+      <h1 class="metros" id="resM"></h1>
       <p class="btn">Calcular</p>
     </div>
     <div class="outputContainer">
       <h1 id="res">0 Ml de corante</h1>
       <h1 id="resL"></h1>
       <img src="image/logo1.png" alt="">
+      <p>ver quantos ml de corante foi gasto por metro cubico em um carregamento <a href="calcular-carregado.netlify.app">clique aqui</a></p>
     </div>
   </div>
 

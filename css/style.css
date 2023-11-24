@@ -51,13 +51,17 @@ input{
   font-weight: bold;
   font-size: 3em;
   color: rgb(235, 241, 241);
-  
+  margin-bottom: -15px;
 }
 input:focus{
   outline: none;
   font-family: 'Josefin Sans', sans-serif;
   color: rgb(235, 241, 241);
 } 
+
+.metros {
+  margin-top: 15px;
+}
 
 .container .inputContainer .btn{
   background-color: rgb(235, 241, 241);

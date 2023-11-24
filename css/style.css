@@ -50,7 +50,8 @@ input{
   text-align: center;
   font-weight: bold;
   font-size: 3em;
-  color: rgb(235, 241, 241)
+  color: rgb(235, 241, 241);
+  
 }
 input:focus{
   outline: none;
